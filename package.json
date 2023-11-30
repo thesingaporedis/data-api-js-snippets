@@ -1,0 +1,43 @@
+{
+  "name": "data-api-js-snippets",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript code snippets for retrieving data from commonly used public data sources in our organization.",
+  "main": "runSnippet.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node runSnippet.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesingaporedis/data-api-js-snippets.git"
+  },
+  "keywords": [
+    "data",
+    "api"
+  ],
+  "author": "Natasha Ann Lum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thesingaporedis/data-api-js-snippets/issues"
+  },
+  "homepage": "https://github.com/thesingaporedis/data-api-js-snippets#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "inquirer": "^9.2.12",
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "babel-jest": "^29.7.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  }
+}

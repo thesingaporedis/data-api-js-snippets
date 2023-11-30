@@ -2,39 +2,67 @@
 
 Welcome to the `data-api-js-snippets` repository! This collection contains JavaScript and TypeScript code snippets for retrieving data from commonly used public data sources within our organization.
 
-## Getting Started
+## Prerequisites
 
-Clone this repository to your local machine to get started with the snippets.
+Before you begin, make sure you have the following installed on your machine:
 
-```bash
-git clone https://github.com/your-username/data-js-python-snippets.git
-cd data-api-js-snippets
-```
-
-### Prerequisites
-
-- **Javascript Repository:**
-  - Node.js 3.x
-  - (Add any additional dependencies or setup steps as needed)
+- [Node.js](https://nodejs.org/): The JavaScript runtime that executes code outside the browser.
+- [npm](https://www.npmjs.com/): The Node.js package manager, used for installing project dependencies.
 
 ## Snippet Usage
 
 ### Javascript Snippets
 
-Explore the Javascript and Typescript snippets available in the `data-api-javascript-snippets` directory to facilitate API retrieval. Each snippet is well-commented for clarity.
+Explore the Javascript and Typescript snippets available in the `data-api-javascript-snippets/src` directory to facilitate API retrieval. Each snippet is well-commented for clarity.
 
-```javascript
-// Example usage of a snippet
-const { exampleSnippet } = require('./orgApiJsSnippets');
+## Installation
 
-const result = exampleSnippet();
-console.log(result);
+Follow these steps to set up the project on your local machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+## Running the Project
+
+To start the project, run the following command:
+
+```bash
+npm start
+```
+
+This will execute the start script defined in the `package.json` file.
+
+## Running Tests
+
+To run tests, use the following command:
+
+```bash
+npm run test
+```
+
+This will execute the test script defined in the `package.json` file.
+
+## Running API functions
+
+You can run each API function by running the following and selecting the function you would like to run:
+
+```bash
+npm run start
 ```
 
 ## Contributing
 
-We welcome contributions! If you have additional snippets, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+If you'd like to contribute to the project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE).
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+```
