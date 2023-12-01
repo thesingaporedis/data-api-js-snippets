@@ -30,16 +30,6 @@ Follow these steps to set up the project on your local machine:
    npm install
    ```
 
-## Running the Project
-
-To start the project, run the following command:
-
-```bash
-npm start
-```
-
-This will execute the start script defined in the `package.json` file.
-
 ## Running Tests
 
 To run tests, use the following command:
